@@ -1,5 +1,5 @@
 # Arco.h
-...
+
 #ifndef ARCO_H
 #define ARCO_H
 
@@ -16,9 +16,10 @@ public:
     
 };
 #endif //ARCO_H
-...
+
+
 # Arco.cpp
-...
+
 #include "Arco.h"
 
 Arco::Arco(){
@@ -29,4 +30,3 @@ int Arco::sumaDano(int vida, int dano){
   vida -= danoTotal;
   return vida;
 }
-...
